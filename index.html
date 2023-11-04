@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaranya Content Management Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center">
+        <h1>Create Blog Post</h1>
+        <form id="blog-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea id="content" placeholder="Description" required></textarea>
+            <input type="file" id="image" accept="image/*">
+            <input type="url" id="video" placeholder="Video URL">
+            <div class="btn">
+                <button type="submit">submit</button>
+            </div>
+        </form>
+        <div id="blog-preview"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
